@@ -1,0 +1,39 @@
+html, body {
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    padding: 30px; /*space from content and border*/
+}
+
+h1 {
+	font-family: 'Heebo', sans-serif;
+	font-size: 30px;
+}
+
+p {
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #0088BF;
+}
+
+.project {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#contact {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
