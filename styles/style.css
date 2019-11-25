@@ -1,39 +1,40 @@
 html, body {
-    margin: 0 auto;
     display: block;
-    overflow: hidden;
-    padding: 30px; /*space from content and border*/
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333000;
+}
+
+::selection {
+	background: #D5F5E3;
 }
 
 h1 {
-	font-family: 'Heebo', sans-serif;
-	font-size: 30px;
-}
-
-p {
-	font-size: 14px;
-}
-
-ul {
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	font-size: 28px;
 }
 
 a {
+	text-decoration: none;
 	color: black;
-	text-decoration: underline;
 }
 
 a:hover {
-	color: #0088BF;
+	color: #61B72C;
 }
 
-.project {
-	font-family: 'Open Sans', sans-serif;
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
-#contact {
-	font-family: 'Open Sans', sans-serif;
-	position: relative;
+.date {
+	font-size: 13px;
+	color: gray;
+}
+
+.contact-links {
+	text-decoration: underline;
 }
