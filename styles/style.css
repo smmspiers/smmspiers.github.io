@@ -1,9 +1,9 @@
 html, body {
-    display: block;
-    padding: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #333000;
+	display: block;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #333000;
 }
 
 ::selection {
