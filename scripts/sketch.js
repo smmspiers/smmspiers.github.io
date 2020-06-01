@@ -22,7 +22,7 @@ class Particle {
 
 	constructor() {
 		this.pos = createVector(random(width), random(height));
-		this.vel = createVector(random(-2, 2), random(-2, 2));
+		this.vel = createVector(random(-1, 1), random(-1, 1));
 		this.size = 5;
 	}
 
