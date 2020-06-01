@@ -1,10 +1,9 @@
 let p; 
 
 function setup() {
-	createCanvas(window.innerWidth, window.innerHeight);
+	createCanvas(windowWidth, windowHeight);
 	p = new Particle();
 }
-
 function draw() {
 	p.draw();
 	p.update(); 
