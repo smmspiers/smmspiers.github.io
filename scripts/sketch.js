@@ -3,7 +3,6 @@ let particles = [];
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
     const nParticles = Math.floor(window.innerWidth / 35);
-    console.log(nParticles);
     for (let i = 0; i < nParticles; i++) {
         particles.push(new Particle());
     }
